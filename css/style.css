@@ -28,3 +28,19 @@
     flex-grow: 1;
     padding: 10px;
 }
+
+.big{
+    min-height: 100px;
+}
+
+.small{
+    max-height: 50px;
+}
+
+.middle{
+    align-items: center;
+}
+
+.bottom{
+    align-items: flex-end;
+}
