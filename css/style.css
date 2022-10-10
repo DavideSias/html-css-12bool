@@ -1,0 +1,29 @@
+.container{
+    margin-bottom: 2rem;
+}
+
+.row{
+    height: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+[class*="col"]{
+    line-height: 50px;
+    height: 100%;
+    border: 1px solid white;
+    background-color: rgb(0, 108, 250);
+}
+
+.nested{
+    background-color: rgb(0, 255, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 108, 250);
+}
+
+.nested-row{
+    padding: 10px;
+}
